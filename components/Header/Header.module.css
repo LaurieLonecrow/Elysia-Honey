@@ -1,0 +1,15 @@
+.header {
+    background-image: url('https://res.cloudinary.com/lonecrow/image/upload/v1637944669/IMG_0051_blstyj.jpg');
+    background-position: 50%;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+
+    .header {
+        background-size: cover;
+    }
+
+}

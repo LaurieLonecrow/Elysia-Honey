@@ -1,0 +1,98 @@
+.mainNav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+    /* mix-blend-mode: difference; */
+
+}
+
+
+.header {
+    background-color: transparent;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: flex-end;
+    position: relative;
+}
+
+
+.logo {
+    color: darkgoldenrod;
+    cursor: pointer;
+    flex: 2;
+    font-size: 3rem;
+    font-family: 'Lobster';
+    position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+.logo:hover {
+  color: gold;
+}
+
+.nav {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    
+}
+
+.header ul {
+    align-items: baseline;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0 2rem;
+    position: absolute;
+
+}
+
+
+.header a {
+    color: darkgoldenrod;
+    font-size: 1.5rem;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: gold;
+}
+
+.nav {
+    position: relative;
+}
+
+.button {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    top: 1rem;
+    right: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+
+    .logo {
+        font-size: 2rem;
+    }
+
+  .button {
+        display: block;
+        position: absolute;
+    }
+
+    .mainLink {
+        display: none;
+    }
+}

@@ -1,0 +1,52 @@
+.background {
+    background-color: black;
+
+}
+
+
+
+.circleBackdrop0 {
+    background: rgb(255,244,135);
+    background: linear-gradient(90deg, rgba(255,244,135,1) 0%, rgba(233,196,14,1) 100%);    border-radius: 50%;
+    top: 5%;
+    width: 100vh;
+    height: 100vh;
+    position: relative;
+}
+
+.circleBackdrop1 {
+    background: rgb(255,199,140);
+    background: linear-gradient(90deg, rgba(255,199,140,1) 0%, rgba(179,18,18,1) 68%);    border-radius: 50%;
+    top: 5%;
+    width: 90vh;
+    height: 90vh;
+    position: relative;
+}
+
+.circleBackdrop2 {
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    width: 80vh;
+    height: 80vh;
+}
+
+@media screen and (max-width: 576px) {
+
+
+    .circleBackdrop0 {
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .circleBackdrop1 {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .circleBackdrop2 {
+        width: 70vw;
+        height: 70vw;
+    }
+}
