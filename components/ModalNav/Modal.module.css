@@ -1,7 +1,7 @@
 .mobileMenu {
     align-items: center;
     background-color: transparent;
-    display: inline;
+    display: inline-block;
     flex-wrap: wrap;
     font-family: 'Lobster';
     padding: 0.5rem 1rem;
