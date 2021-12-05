@@ -17,6 +17,11 @@ a {
   color: rgb(183, 149, 1);
   text-decoration: none;
 }
+a:hover,
+a:active,
+a.active {
+  color: gold;
+}
 
 ul {
   padding: 0;

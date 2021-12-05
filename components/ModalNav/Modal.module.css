@@ -19,7 +19,7 @@
     font-size: 1.5rem;
 }
 
-.mobileLink:hover,
+.mobileNav:hover,
 .mobileLink:active,
 .mobileLink.active {
   color: gold;
