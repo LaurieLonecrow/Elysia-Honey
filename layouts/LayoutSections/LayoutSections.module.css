@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.divider {
+    width: 40%;
+}
+
+.titles {
+    color: blanchedalmond;
+    text-align: center;
+    font-family: Lobster;
+    padding: 0 2rem;
+}
+
+.content {
+    align-self: center;
+    border-bottom-style: double;
+    color: blanchedalmond;
+    font-family: Lobster;
+    padding: 2rem 200px;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 576px) {
+
+    .content {
+        padding: 0 2rem;
+    }
+
+}
