@@ -86,12 +86,13 @@
 
 @media screen and (max-width: 576px) {
 
-  .button {
-        display: block;
-        position: absolute;
+    .logo {
+        font-size: 2rem;
     }
 
-    .mainLink {
-        display: none;
+  .button {
+    top: .8rem;
+    right: .8rem;
     }
+
 }

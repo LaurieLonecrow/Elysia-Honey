@@ -11,9 +11,6 @@ export default function ModalNav() {
     <div className={styles.mobileMenu}>
         <nav>
           <ul className={styles.mobileNav}>
-            {/* <li className={styles.mobileLink}>
-            <Link href='/'>Home</Link>
-            </li> */}
             <li className={styles.mobileLink}>
             <Link href='/about'>About</Link>
             </li>

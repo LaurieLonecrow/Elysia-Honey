@@ -20,8 +20,8 @@
 }
 
 .mobileNav:hover,
-.mobileLink:active,
-.mobileLink.active {
+.mobileNav:active,
+.mobileNav.active {
   color: gold;
 }
 
