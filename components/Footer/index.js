@@ -12,7 +12,7 @@ export default function Footer () {
         <h2 className={styles.footerText}>{`Booking through Instagram DM @elysiahoney`}</h2>
         <ul className={styles.list}>
             <li className={styles.link}>
-            <Link href='/'><BsInstagram/></Link>
+            <Link href='/' passHref><BsInstagram/></Link>
             </li>
         </ul>
         </div>

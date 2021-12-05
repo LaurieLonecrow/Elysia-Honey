@@ -35,7 +35,7 @@ export default function MainNav() {
     <motion.div initial = 'initial' animate = 'animate'>
     <motion.div variants={fadeIn} className={styles.mainNav}>
     <header className={styles.header}>
-      <Link href='/'><div className={styles.logo}>Elysia-Honey</div></Link>
+      <Link href='/' passHref><div className={styles.logo}>Elysia-Honey</div></Link>
       {/* <nav className={styles.nav}>
         <ul> */}
           {/* <li className={styles.mainLink}>
