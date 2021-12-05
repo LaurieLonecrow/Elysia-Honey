@@ -1,22 +1,21 @@
 .mobileMenu {
     align-items: center;
-    background-color: brown;
-    display: none;
+    background-color: transparent;
+    display: inline;
     flex-wrap: wrap;
-    justify-content: space-between;
+    font-family: 'Lobster';
     padding: 0.5rem 1rem;
 
 }
 
 .mobileNav {
     display: flex;
-    flex-direction: column;
-    list-style: none;
+    justify-content: flex-end;
 
 }
 
 .mobileLink {
-    color: cornsilk;
+    color: rgb(250, 216, 132);
     font-size: 1.5rem;
 }
 

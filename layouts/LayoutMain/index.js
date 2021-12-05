@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 
 //components
 import MainNav from '../../components/MainNav'
+import Footer from '../../components/Footer';
 
 //styles
 import styles from './LayoutMain.module.css'
@@ -28,6 +29,7 @@ export default function Layout(props) {
         <>
         {showNav? <MainNav/>: null}
         <main className={styles.main}>{props.children}</main>
+        <Footer/>
         </>
     )
   }

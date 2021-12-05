@@ -4,8 +4,6 @@
     position: fixed;
     width: 100vw;
     z-index: 2;
-    /* mix-blend-mode: difference; */
-
 }
 
 
@@ -25,11 +23,11 @@
     font-size: 3rem;
     font-family: 'Lobster';
     position: absolute;
-margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
-text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .logo:hover {
@@ -55,7 +53,6 @@ text-align: center;
 
 }
 
-
 .header a {
     color: darkgoldenrod;
     font-size: 1.5rem;
@@ -72,20 +69,22 @@ text-align: center;
 }
 
 .button {
-    display: none;
+    display: block;
     position: absolute;
     background-color: transparent;
+    color: darkgoldenrod;
     border: none;
     font-size: 2rem;
     top: 1rem;
     right: 1rem;
 }
 
-@media screen and (max-width: 576px) {
+.button :hover {
+    color: gold;
 
-    .logo {
-        font-size: 2rem;
-    }
+}
+
+@media screen and (max-width: 576px) {
 
   .button {
         display: block;

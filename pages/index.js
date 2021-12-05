@@ -1,5 +1,6 @@
 //components
 import Header from '../components/Header'
+
 //styles
 import styles from '../styles/Home.module.css'
 

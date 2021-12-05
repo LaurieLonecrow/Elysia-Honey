@@ -1,6 +1,6 @@
-
 //components
 import Layout from '../layouts/LayoutMain'
+
 //styles
 import '../styles/globals.css'
 
@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
   <Layout>
   <Component {...pageProps} />
   </Layout>
-  </>
+    </>
   )
 }
 

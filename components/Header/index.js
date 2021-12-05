@@ -1,13 +1,10 @@
-//components
-import HeaderTitle from '../HeaderTitle'
 
 //styles
 import styles from './Header.module.css'
 
-export default function Header(props) {
+export default function Header() {
     return (
-        <div className={styles.header}>
-        {/* <HeaderTitle title={`Elysia-Honey`}/>      */}
+        <div className={styles.header} >
         </div>
     )
   }

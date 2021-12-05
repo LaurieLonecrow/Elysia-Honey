@@ -1,9 +1,27 @@
 .header {
     background-image: url('https://res.cloudinary.com/lonecrow/image/upload/v1637944669/IMG_0051_blstyj.jpg');
     background-position: 50%;
-    background-size: 100vw;
+    background-size: cover;
     background-repeat: no-repeat;
+    backface-visibility: hidden;
     height: 100vh;
+    width: 100%;
+    animation: fadeBackground 40s linear infinite;
+    animation-timing-function: ease;
+
+}
+
+@keyframes fadeBackground {
+    0% {
+        background-image: url('https://res.cloudinary.com/lonecrow/image/upload/v1637944669/IMG_0051_blstyj.jpg');
+    }
+    25% {
+        background-image: url('https://res.cloudinary.com/lonecrow/image/upload/v1638658381/IMG_0027_gifzap.jpg');
+    }
+    50%{
+        background-image: url('https://res.cloudinary.com/lonecrow/image/upload/v1638658357/IMG_0014_ue7gao.jpg');
+    }
+    
 }
 
 @media screen and (max-width: 576px) {
