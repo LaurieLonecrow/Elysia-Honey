@@ -20,14 +20,15 @@
     color: darkgoldenrod;
     cursor: pointer;
     flex: 2;
-    font-size: 3rem;
-    font-family: 'Chango';
+    font-size: 4rem;
+    font-family: 'Bratsy';
     position: absolute;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     text-align: center;
+
 }
 
 .logo:hover {
@@ -87,7 +88,7 @@
 @media screen and (max-width: 576px) {
 
     .logo {
-        font-size: 1.8rem;
+        font-size: 3rem;
     }
 
   .button {

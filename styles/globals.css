@@ -1,5 +1,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Chango&family=Quicksand:wght@300&display=swap");
+@import url("/public/Bratsy.ttf");
+
+@font-face {
+  font-family: "Bratsy";
+  src: url("../public/Bratsy.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 
 * {
   box-sizing: border-box;
@@ -10,7 +19,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Chango, Quicksand;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Chango, Quicksand, Bratsy ;
 }
 
 a {
@@ -48,9 +57,8 @@ h2 {
 }
 
 p {
-  font-family: Helvetica Neue;
-  font-size: 1.5rem;
-  font-style: italic;
+  font-family: Chango;
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 576px){

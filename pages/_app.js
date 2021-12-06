@@ -11,6 +11,12 @@ function MyApp({ Component, pageProps }) {
     <>
     <Head>
     <link
+            rel="preload"
+            href="/public/Bratsy.ttf"
+            as="font"
+            crossOrigin=""
+          />
+    <link
       href="https://fonts.googleapis.com/css2?family=Chango&family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />

@@ -36,16 +36,6 @@ export default function MainNav() {
     <motion.div variants={fadeIn} className={styles.mainNav}>
     <header className={styles.header}>
       <Link href='/' passHref><div className={styles.logo}>Elysia-Honey</div></Link>
-      {/* <nav className={styles.nav}>
-        <ul> */}
-          {/* <li className={styles.mainLink}>
-            <Link href='/'>Home</Link>
-          </li> */}
-          {/* <li className={styles.mainLink}>
-            <Link href='/about'>About</Link>
-          </li>
-        </ul>
-      </nav> */}
       <button className={styles.button} onClick={()=> show()}><CgMenu/></button>
     </header>
     {showModal ? <ModalNav /> : null}

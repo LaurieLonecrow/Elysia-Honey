@@ -1,18 +1,35 @@
 
+.nameHeaderWrapper {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
 
 .nameHeader {
     color: goldenrod;
-    font-family: Lobster;
+    font-family: 'Chango';
     font-size: 8rem;
-    position: absolute;
-    top: 20%;
-    left: 25%;
-    z-index: 1;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 1px gold;
+
+    
 }
 
 
 @media screen and (max-width: 700px) {
     .nameHeader {
-        display: none;
+        font-size: 6rem;
     }
 }
+
+@media screen and (max-width: 576px) {
+
+    .nameHeader {
+        font-size: 3rem;
+      }
+  
+  }

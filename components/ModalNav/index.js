@@ -14,6 +14,12 @@ export default function ModalNav() {
             <li className={styles.mobileLink}>
             <Link href='/about'>About</Link>
             </li>
+            <li className={styles.mobileLink}>
+            <Link href='/pricing'>Pricing</Link>
+            </li>
+            <li className={styles.mobileLink}>
+            <Link href='/story'>My Story</Link>
+            </li>
           </ul>
         </nav>
 

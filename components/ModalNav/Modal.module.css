@@ -1,22 +1,23 @@
 .mobileMenu {
     align-items: center;
     background-color: transparent;
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
     flex-wrap: wrap;
-    font-family: 'Lobster';
     padding: 0.5rem 1rem;
-
+    z-index: 2;
 }
 
 .mobileNav {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
 
 }
 
 .mobileLink {
     color: rgb(250, 216, 132);
     font-size: 1.5rem;
+    padding-top: 2.8rem;
 }
 
 .mobileNav:hover,
@@ -25,10 +26,3 @@
   color: gold;
 }
 
-@media screen and (max-width: 576px) {
-
-    .mobileMenu {
-          display: inline-block;
-      }
-  
-  }
