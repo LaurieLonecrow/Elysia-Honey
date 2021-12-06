@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Quicksand:wght@300&display=swap");
 
 * {
   box-sizing: border-box;
@@ -10,13 +10,15 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Lobster;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Chango, Quicksand;
 }
 
 a {
-  color: goldenrod;
+  font-family: Chango;
+  color:goldenrod;  
   text-decoration: none;
 }
+
 a:hover,
 a:active,
 a.active {
@@ -32,19 +34,23 @@ li {
 }
 
 h1 {
+  font-family: Chango;
   font-size: 2.5rem;
   margin-block-start: 0.4em;
   margin-block-end: 0.4em;
 }
 
 h2 {
+  font-family: Chango;
   font-size: 2rem;
   margin-block-start: 0.3em;
   margin-block-end: 0.3em;
 }
 
 p {
+  font-family: Helvetica Neue;
   font-size: 1.5rem;
+  font-style: italic;
 }
 
 @media screen and (max-width: 576px){
