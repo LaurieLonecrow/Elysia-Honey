@@ -1,5 +1,5 @@
 .header {
-    background-image: url('https://res.cloudinary.com/lonecrow/image/upload/v1637944669/IMG_0051_blstyj.jpg');
+    background-image: url('https://res.cloudinary.com/lonecrow/image/upload/v1637944669/Elysia-Honey/IMG_0051_blstyj.jpg');
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,13 +13,13 @@
 
 @keyframes fadeBackground {
     0% {
-        background-image: url('https://res.cloudinary.com/lonecrow/image/upload/v1637944669/IMG_0051_blstyj.jpg');
+        background-image: url('https://res.cloudinary.com/lonecrow/image/upload/v1637944669/Elysia-Honey/IMG_0051_blstyj.jpg');
     }
     25% {
-        background-image: url('https://res.cloudinary.com/lonecrow/image/upload/v1638658381/IMG_0027_gifzap.jpg');
+        background-image: url('https://res.cloudinary.com/lonecrow/image/upload/v1638658381/Elysia-Honey/IMG_0027_gifzap.jpg');
     }
     50%{
-        background-image: url('https://res.cloudinary.com/lonecrow/image/upload/v1638658357/IMG_0014_ue7gao.jpg');
+        background-image: url('https://res.cloudinary.com/lonecrow/image/upload/v1638658357/Elysia-Honey/IMG_0014_ue7gao.jpg');
     }
     
 }
