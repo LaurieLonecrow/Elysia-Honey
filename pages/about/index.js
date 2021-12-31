@@ -16,7 +16,7 @@ export default function About() {
         <Header title={'About'}/>
         <LayoutSections
         background={{backgroundColor: '#fefae0'}}
-        source1={'https://res.cloudinary.com/lonecrow/image/upload/v1638749918/output-onlinepngtools_6_qpskor.png'}
+        source1={'https://res.cloudinary.com/lonecrow/image/upload/v1638749918/Elysia-Honey/output-onlinepngtools_6_qpskor.png'}
         color={{color: 'black'}}
         title={`Elysia-Honey, here!!`}
         subtitle={`You can call me Big ‘Leesh if you want.`}
