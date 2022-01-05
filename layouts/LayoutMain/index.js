@@ -11,7 +11,7 @@ export default function Layout(props) {
         let scrollToTop = 0;
         window.addEventListener('scroll', function(){
            let scrollUp = window.pageYOffset;
-           scrollToTop < scrollUp ? setShowNav(!showNav): setShowNav(showNav);
+           scrollToTop <= scrollUp ? setShowNav(!showNav): setShowNav(showNav);
            scrollToTop = scrollUp;
         }, false)
     }

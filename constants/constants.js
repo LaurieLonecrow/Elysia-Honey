@@ -31,3 +31,9 @@ export const sectionInfo = {
       imageSrc2:'https://res.cloudinary.com/lonecrow/image/upload/v1638735344/Elysia-Honey/output-onlinepngtools_t5oxa7.png',
       },
   };
+
+  export const polaroids = [
+      {src:'https://res.cloudinary.com/lonecrow/image/upload/v1641416673/Elysia-Honey/Ehoney1_lcmcom.png'},
+      {src:'https://res.cloudinary.com/lonecrow/image/upload/v1641416673/Elysia-Honey/Ehoney2_iatbgw.png'},
+      {src:'https://res.cloudinary.com/lonecrow/image/upload/v1641416673/Elysia-Honey/Ehoney3_ivptam.png'},
+  ]
