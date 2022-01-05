@@ -1,26 +1,26 @@
-import Link from 'next/link'
 import { useState } from 'react';
 import { CgMenu } from 'react-icons/cg';
 import { motion } from 'framer-motion'
 
 //components
+import Link from 'next/link'
 import ModalNav from '../ModalNav';
-
+import HeaderTitle from '../HeaderTitle';
 //styles
 import styles from './MainNav.module.css';
+import Logo from '../Logo';
 
 export default function MainNav() {
     const [showModal, setShowModal] = useState(false);
-
+    
     function show() {
         return setShowModal(!showModal)
     }
-
+    //animation
     const fadeIn = {
         initial: {
           y: -100,
           opacity: 0
-
         },
         animate: {
           y: 0,
@@ -30,15 +30,14 @@ export default function MainNav() {
           }
         },
     };
-    
     return (
     <motion.div initial = 'initial' animate = 'animate'>
     <motion.div variants={fadeIn} className={styles.mainNav}>
     <header className={styles.header}>
-      <Link href='/' passHref><div className={styles.logo}>Elysia-Honey</div></Link>
+      <Logo/>
       <button className={styles.button} onClick={()=> show()}><CgMenu/></button>
     </header>
-    {showModal ? <ModalNav /> : null}
+    {showModal ? <ModalNav onClick={()=> show()}/> : null}
 
     </motion.div>
     </motion.div>

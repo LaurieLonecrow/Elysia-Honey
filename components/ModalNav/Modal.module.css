@@ -1,8 +1,8 @@
 .mobileMenu {
     align-items: center;
-    background-color: transparent;
+    background-color: black;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 0.5rem 1rem;
     z-index: 2;

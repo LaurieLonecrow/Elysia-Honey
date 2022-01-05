@@ -6,66 +6,9 @@
     z-index: 2;
 }
 
-
 .header {
     background-color: transparent;
     display: flex;
-    padding: 1rem 2rem;
-    justify-content: flex-end;
-    position: relative;
-}
-
-
-.logo {
-    color: darkgoldenrod;
-    cursor: pointer;
-    flex: 2;
-    font-size: 4rem;
-    font-family: 'Bratsy';
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-
-}
-
-.logo:hover {
-  color: gold;
-}
-
-.nav {
-    flex: 2;
-    display: flex;
-    justify-content: flex-end;
-    width: 70%;
-    
-}
-
-.header ul {
-    align-items: baseline;
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-    margin: 0;
-    padding: 0 2rem;
-    position: absolute;
-
-}
-
-.header a {
-    color: darkgoldenrod;
-    font-size: 1.5rem;
-}
-
-.header a:hover,
-.header a:active,
-.header a.active {
-  color: gold;
-}
-
-.nav {
     position: relative;
 }
 
@@ -82,18 +25,11 @@
 
 .button :hover {
     color: gold;
-
 }
 
 @media screen and (max-width: 576px) {
-
-    .logo {
-        font-size: 3rem;
-    }
-
   .button {
     top: 1.2rem;
     right: .5rem;
     }
-
 }
