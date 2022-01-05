@@ -1,0 +1,21 @@
+.picture_container {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    transform: rotate(-20deg);
+}
+
+
+.polaroid {
+    position: absolute;
+    border: 1px solid darkgrey;
+    background-color: white;
+    padding: 15px 15px 55px 15px;
+    box-shadow: 2px 5px 2px lightgrey;
+    filter: sepia(10%);
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}

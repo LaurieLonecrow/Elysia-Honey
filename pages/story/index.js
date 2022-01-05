@@ -2,7 +2,8 @@
 import Header from '../../components/Header'
 import LayoutSections from '../../layouts/LayoutSections'
 
-//styles
+//data
+import { sectionInfo } from '../../constants/constants'
 
 
 export default function Story() {
@@ -12,13 +13,11 @@ export default function Story() {
 <>
         <Header title={'My Story'}/>
         <LayoutSections
-        background={{backgroundColor: 'black'}}
-        color={{color: 'rgb(254, 250, 224'}}
-        title = {`I believe that hair has no gender`}
-        content={`Style can be worn in any way desired by whoever’s rocking it, regardless of toxic rules and standards that the beauty industry has
-        imposed over us regarding face shape, size, age, etc. My passion is cultivating a safe and emboldening experience in confidence through hair.`}
-        source2={'https://res.cloudinary.com/lonecrow/image/upload/v1638735344/Elysia-Honey/output-onlinepngtools_t5oxa7.png'}
-
+        background={{backgroundColor: sectionInfo.story.backgroundColor}}
+        color={{color: sectionInfo.story.textColor}}
+        title = {sectionInfo.story.title}
+        content={sectionInfo.story.content}
+        source2={sectionInfo.story.imageSrc2}
         />
 </>
     )}
