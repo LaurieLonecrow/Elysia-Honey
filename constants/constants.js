@@ -19,7 +19,6 @@ export const sectionInfo = {
       textColor:'black',
       imageSrc1:'',
       imageSrc2:'https://res.cloudinary.com/lonecrow/image/upload/v1638735344/Elysia-Honey/output-onlinepngtools_t5oxa7.png',
-
     },
     story:{
       title:`I believe that hair has no gender`,

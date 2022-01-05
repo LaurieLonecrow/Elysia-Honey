@@ -1,13 +1,17 @@
 .wrapper {
     background-color: black;
     padding: 2rem;
-    width: 100vw;
-    text-align: center;
+    /* width: 100vw; */
+    /* text-align: center; */
     font-family: 'Lobster Two';
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .footerText {
     color: goldenrod;
+    display: inline-block;
+    animation: marquee 10s linear infinite;
 }
 
 .list {
@@ -18,7 +22,18 @@
 .link {
     color: goldenrod;
     font-size: 2rem;
+    cursor: pointer;
 }
+
+@keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
 
 @media screen and (max-width: 700px) {
     .footerText {
