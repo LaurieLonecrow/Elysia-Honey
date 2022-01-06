@@ -10,12 +10,14 @@
 .mobileNav {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    
 }
 
 .mobileLink {
     color: rgb(250, 216, 132);
-    font-size: 1.5rem;
-    padding-top: 2.8rem;
+    font-size: 2rem;
+    padding: 2rem 0;
 }
 
 .mobileNav:hover,

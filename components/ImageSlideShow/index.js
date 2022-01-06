@@ -10,8 +10,8 @@ export default function ImageSlideShow() {
     return (
         <div className={styles.slide_show}>
         {size.width < 576 ? (polaroids.slice(0,3).map(pic => (
-          <Polaroid key={pic.id} src={pic.src}/>))) 
-          : polaroids.map(pic => (<Polaroid key={pic.id} src={pic.src}/>))}
+          <Polaroid key={pic.id} src={pic.src} href={pic.link}/>))) 
+          : polaroids.map(pic => (<Polaroid key={pic.id} src={pic.src} href={pic.link}/>))}
         </div>
     )
   }
