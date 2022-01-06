@@ -1,4 +1,13 @@
 .slide_show {
     display: flex;
     width: 100%;
+    background-color: black;
+    padding-top: 3rem;
+    margin-left: -30px;
+    }
+
+@media screen and (max-width: 576px) {
+.slide_show {
+    display: none;
+  }
 }

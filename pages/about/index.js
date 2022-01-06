@@ -2,7 +2,6 @@
 //components
 import Header from '../../components/Header'
 import LayoutSections from '../../layouts/LayoutSections'
-import ImageSlideShow from '../../components/ImageSlideShow'
 
 //styles
 import styles from './About.module.css'
@@ -15,7 +14,6 @@ export default function About() {
   return (
   <>
     <Header title={'About'}/>
-    {/* <ImageSlideShow/> */}
     <LayoutSections
         background={{backgroundColor: sectionInfo.about.backgroundColor}}
         src1={sectionInfo.about.imageSrc1}

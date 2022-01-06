@@ -36,4 +36,10 @@ export const sectionInfo = {
       {src:'https://res.cloudinary.com/lonecrow/image/upload/v1641416673/Elysia-Honey/Ehoney1_lcmcom.png'},
       {src:'https://res.cloudinary.com/lonecrow/image/upload/v1641416673/Elysia-Honey/Ehoney2_iatbgw.png'},
       {src:'https://res.cloudinary.com/lonecrow/image/upload/v1641416673/Elysia-Honey/Ehoney3_ivptam.png'},
+      {src:'https://res.cloudinary.com/lonecrow/image/upload/v1641426605/Elysia-Honey/Ehoney9_vcnoit.png'},
+      {src:'https://res.cloudinary.com/lonecrow/image/upload/v1641426604/Elysia-Honey/Ehoney7_fndqeq.png'},
+      {src:'https://res.cloudinary.com/lonecrow/image/upload/v1641426289/Elysia-Honey/Ehoney4_smetar.png'},
+      {src:'https://res.cloudinary.com/lonecrow/image/upload/v1641426604/Elysia-Honey/Ehoney8_lmduob.png'},
+      {src:'https://res.cloudinary.com/lonecrow/image/upload/v1641426604/Elysia-Honey/Ehoney5_rmjobw.png'},
+      {src:'https://res.cloudinary.com/lonecrow/image/upload/v1641426604/Elysia-Honey/Ehoney6_opn6pm.png'},
   ]

@@ -3,15 +3,21 @@
     height: 200px;
     width: 200px;
     transform: rotate(-20deg);
+    transition: transform .4s ease;
 }
 
+.picture_container:hover,
+.picture_container:active {
+    transform: translateY(-100px);
+    transition: transform .4s ease;
+}
 
 .polaroid {
     position: absolute;
     border: 1px solid darkgrey;
     background-color: white;
     padding: 15px 15px 55px 15px;
-    box-shadow: 2px 5px 2px lightgrey;
+    box-shadow: 2px 5px 10px rgb(43, 42, 42);
     filter: sepia(10%);
     top: 0;
     left: 0;
