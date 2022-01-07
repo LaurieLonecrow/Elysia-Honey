@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 5rem;
+    padding: 3rem;
 }
 
 .divider {
@@ -29,7 +29,7 @@
 @media screen and (max-width: 576px) {
 
     .wrapper {
-        padding: 3rem 0;
+        padding: 1rem 0;
     }
 
     .divider {

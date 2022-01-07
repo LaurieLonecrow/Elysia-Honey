@@ -3,6 +3,8 @@
     position: absolute;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+
     top: 10%;
     left: 0;
     right: 0;
@@ -14,9 +16,7 @@
     font-family: 'Chango';
     font-size: 8rem;
     letter-spacing: 5px;
-    -webkit-text-stroke: 1px gold;
-
-    
+    -webkit-text-stroke: 1px gold; 
 }
 
 
