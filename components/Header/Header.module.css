@@ -8,7 +8,7 @@
     width: 100%;
     animation: fadeBackground 40s linear infinite;
     animation-timing-function: ease;
-
+    filter: sepia(30%);
 }
 
 @keyframes fadeBackground {
