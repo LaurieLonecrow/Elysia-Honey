@@ -12,9 +12,11 @@ import Logo from '../Logo';
 
 export default function MainNav() {
     const [showModal, setShowModal] = useState(false);
-    
     function show() {
         return setShowModal(!showModal)
+    }
+    function showModalMenu() {
+      return showModal ? <ModalNav onClick={()=> show()}/> : null
     }
     //animation
     const fadeIn = {
@@ -35,10 +37,9 @@ export default function MainNav() {
     <motion.div variants={fadeIn} className={styles.mainNav}>
     <header className={styles.header}>
       <Logo/>
-      <button className={styles.button} onClick={()=> show()}><CgMenu/></button>
+      <button className={styles.button} onClick={()=> show()} data-cy="nav-button"><CgMenu/></button>
     </header>
-    {showModal ? <ModalNav onClick={()=> show()}/> : null}
-
+    {showModalMenu()}
     </motion.div>
     </motion.div>
     );
