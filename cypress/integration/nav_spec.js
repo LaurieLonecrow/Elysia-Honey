@@ -1,4 +1,3 @@
-import { CgYinyang } from "react-icons/cg"
 
 describe('App opens', () => {
     it('Opens the app!', () => {
